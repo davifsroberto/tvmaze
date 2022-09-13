@@ -41,6 +41,7 @@
     "@typescript-eslint/parser": "^5.17.0",
     "babel-jest": "^26.6.3",
     "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^27.0.4",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
     "prettier": "^2.7.1",
@@ -56,7 +57,8 @@
       "@testing-library/jest-native/extend-expect"
     ],
     "setupFiles": [
-      "./node_modules/react-native-gesture-handler/jestSetup.js"
+      "./node_modules/react-native-gesture-handler/jestSetup.js",
+      "./jestSetupFile.js"
     ],
     "modulePathIgnorePatterns": [
       "mocks"
