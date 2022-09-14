@@ -1,9 +1,8 @@
 import React, { createRef } from 'react';
 import { Modalize } from 'react-native-modalize';
 
-import { act, fireEvent, render } from '@testing-library/react-native';
-
 import { SeasonModal } from '../SeasonModal';
+import { render, act, fireEvent } from 'test-utils';
 
 describe('SeasonModal', () => {
   it('should render all season options', () => {

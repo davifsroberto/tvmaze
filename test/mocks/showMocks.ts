@@ -1,6 +1,6 @@
-import { DaysOfWeek } from '../../../../../models/CommonModels';
-import { Episode } from '../../../../../models/EpisodeModel';
-import { Show } from '../../../../../models/ShowModel';
+import { DaysOfWeek } from 'src/models/CommonModels';
+import { Episode } from 'src/models/EpisodeModel';
+import { Show } from 'src/models/ShowModel';
 
 const show: Show = {
   id: 250,
@@ -149,10 +149,13 @@ const episode23: Episode = {
   },
 };
 
-export const mocks = {
+const episodeList = [episode1, episode2, episode22, episode23];
+
+export const showMocks = {
   show,
   episode1,
   episode2,
   episode22,
   episode23,
+  episodeList,
 };
